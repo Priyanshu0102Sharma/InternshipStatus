@@ -1,0 +1,47 @@
+.export_btn,.search_btn {
+    background: #479C88;
+    border: none;
+}
+.export_btn:hover,.search_btn:hover{
+    background: #1f856d;
+}
+.dropdown_btn {
+    background: none !important;
+    border: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown_btn:hover {
+    color: blue !important;
+}
+
+/* media query */
+@media (max-width:770px)
+{
+    .filter_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .filter_gender h3{
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .filter_newold h3{
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .filter_status h3{
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .export_csv{
+        text-align: center
+    }
+
+}
